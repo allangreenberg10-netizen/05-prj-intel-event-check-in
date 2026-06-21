@@ -11,7 +11,7 @@ const teamCountElements = {
 };
 const teamRosterElements = {
   water: document.getElementById("waterRoster"),
-  zero: document.getElemenster"),
+  zero: document.getElementById("zeroRoster"),
   power: document.getElementById("powerRoster"),
 };
 
@@ -244,7 +244,7 @@ function restoreWinningTeamHighlight() {
 }
 
 function showConfetti() {
-  const colors = ["#0071c5", "#00aeef", "#ffd400", "#ffffff", "#7dd3fc"];
+  const colors = ["#dc2626", "#ef4444", "#fb7185", "#ffffff", "#fca5a5"];
   const confettiCount = 100;
 
   for (let index = 0; index < confettiCount; index++) {
