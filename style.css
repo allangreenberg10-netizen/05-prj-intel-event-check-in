@@ -28,9 +28,9 @@ body {
   background:
     linear-gradient(
       135deg,
-      rgba(244, 63, 94, 0.92) 0%,
-      rgba(220, 38, 38, 0.92) 50%,
-      rgba(127, 29, 29, 0.95) 100%
+      rgba(0, 153, 219, 0.9) 0%,
+      rgba(0, 104, 181, 0.9) 50%,
+      rgba(0, 60, 116, 0.9) 100%
     ),
     url("img/bg.jpg");
   background-size: cover;
@@ -66,7 +66,7 @@ body {
   width: 100px;
   height: 3px;
   margin: 26px auto;
-  background-color: #ef4444;
+  background-color: #00c7fd;
 }
 
 .hero p {
@@ -120,12 +120,12 @@ input {
 }
 
 input:focus {
-  border-color: #dc2626;
-  box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.15);
+  border-color: #0071c5;
+  box-shadow: 0 0 0 4px rgba(0, 113, 197, 0.15);
 }
 
 button {
-  background-color: #dc2626;
+  background-color: #0071c5;
   color: white;
   border: none;
   border-radius: 12px;
@@ -136,16 +136,16 @@ button {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 113, 197, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 button:hover {
-  background-color: #b91c1c;
+  background-color: #005a9e;
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 113, 197, 0.3);
 }
 
 #checkInBtn {
@@ -199,14 +199,14 @@ button .fas {
 }
 
 #attendeeCount {
-  color: #dc2626;
+  color: #0071c5;
   font-size: 24px;
   font-weight: 700;
   margin: 0 2px;
 }
 
 .attendance-header i {
-  color: #dc2626;
+  color: #0071c5;
   font-size: 20px;
   margin-right: 4px;
 }
@@ -232,8 +232,8 @@ button .fas {
 .progress-bar {
   width: 0%;
   height: 100%;
-  background-color: #dc2626;
-  background-image: linear-gradient(90deg, #dc2626, #fb7185);
+  background-color: #0071c5;
+  background-image: linear-gradient(90deg, #0071c5, #00aeef);
   border-radius: 10px;
   transition: width 0.6s ease;
 }
@@ -261,29 +261,29 @@ button .fas {
 
 .flash-message {
   animation: welcomeFlash 1.2s ease-out;
-  box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4);
+  box-shadow: 0 0 0 0 rgba(0, 113, 197, 0.4);
 }
 
 @keyframes welcomeFlash {
   0% {
     opacity: 0;
     transform: scale(0.96);
-    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.5);
+    box-shadow: 0 0 0 0 rgba(0, 113, 197, 0.5);
   }
   20% {
     opacity: 1;
     transform: scale(1.02);
-    box-shadow: 0 0 0 10px rgba(220, 38, 38, 0.12);
+    box-shadow: 0 0 0 10px rgba(0, 113, 197, 0.12);
   }
   50% {
     opacity: 1;
     transform: scale(1);
-    box-shadow: 0 0 0 18px rgba(220, 38, 38, 0.06);
+    box-shadow: 0 0 0 18px rgba(0, 113, 197, 0.06);
   }
   100% {
     opacity: 1;
     transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+    box-shadow: 0 0 0 0 rgba(0, 113, 197, 0);
   }
 }
 
@@ -300,11 +300,11 @@ button .fas {
     radial-gradient(
       circle at center,
       rgba(255, 255, 255, 0.9) 0%,
-      rgba(220, 38, 38, 0.72) 32%,
-      rgba(127, 29, 29, 0.9) 68%,
+      rgba(0, 113, 197, 0.72) 32%,
+      rgba(0, 60, 116, 0.9) 68%,
       rgba(0, 0, 0, 0.98) 100%
     ),
-    linear-gradient(135deg, rgba(220, 38, 38, 0.85), rgba(251, 113, 133, 0.9));
+    linear-gradient(135deg, rgba(0, 113, 197, 0.85), rgba(0, 174, 239, 0.9));
   transform: scale(0.15);
   filter: blur(4px);
   transition: none;
@@ -416,7 +416,7 @@ button .fas {
 }
 
 .footer-link:hover {
-  color: #dc2626;
+  color: #0071c5;
   text-decoration: underline;
 }
 
@@ -512,7 +512,7 @@ select {
   transform: translateY(-4px) scale(1.02);
   box-shadow:
     0 0 0 3px rgba(255, 212, 0, 0.85),
-    0 12px 28px rgba(220, 38, 38, 0.2);
+    0 12px 28px rgba(0, 113, 197, 0.2);
   outline: 4px solid rgba(255, 212, 0, 0.45);
   animation: winningPulse 1s ease-in-out infinite;
 }
